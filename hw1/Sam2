@@ -1,0 +1,133 @@
+clc
+diary Sam
+s2
+
+s2 =
+
+cowcbfxiviagwiuxivixcdcbscbfxofrgbsrcafgnscttivcax
+
+s2int=text2int(s2)
+
+s2int =
+
+  Columns 1 through 18
+
+     2    14    22     2     1     5    23     8    21     8     0     6    22     8    20    23     8    21
+
+  Columns 19 through 36
+
+     8    23     2     3     2     1    18     2     1     5    23    14     5    17     6     1    18    17
+
+  Columns 37 through 50
+
+     2     0     5     6    13    18     2    19    19     8    21     2     0    23
+
+for i=1:25
+    if gcd(i,26)==1
+        for j=1:25
+            i
+            j
+            ss=mod(invmodn(i,26)*(s2int-j),26);
+            int2text(ss)
+        end
+    end
+end
+
+i =
+
+     1
+
+
+j =
+
+     1
+
+
+ans =
+
+bnvbaewhuhzfvhtwhuhwbcbarbaewneqfarqbzefmrbsshubzw
+
+.
+.
+.
+
+
+i =
+
+     5
+
+
+j =
+
+    12
+
+
+ans =
+
+yqcydjxuhuiecumxuhuxytydwydjxqjbedwbyijevwyrruhyix
+
+
+i =
+
+     5
+
+
+j =
+
+    13
+
+
+ans =
+
+dvhdioczmznjhzrczmzcdydibdiocvogjibgdnojabdwwzmdnc
+
+
+i =
+
+     5
+
+
+j =
+
+    14
+
+
+ans =
+
+iamintheresomewherehidinginthatlonglistofgibberish
+
+
+i =
+
+     5
+
+
+j =
+
+    15
+
+
+ans =
+
+nfrnsymjwjxtrjbmjwjmninslnsymfyqtslqnxytklnggjwnxm
+
+.
+.
+.
+
+
+i =
+
+    25
+
+
+j =
+
+    25
+
+
+ans =
+
+xldxyucrerztdrfcrercxwxyhxyucluityhixzutmhxggrexzc
+
+diary

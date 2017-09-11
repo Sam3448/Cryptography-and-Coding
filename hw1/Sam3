@@ -1,0 +1,181 @@
+s
+
+s =
+
+thetipofthemonth
+
+m=block(s,1,4)
+
+m =
+
+tito
+hphn
+eoet
+tfmh
+
+se
+
+se =
+
+krtayyxvnitxnxom
+
+c=block(se,1,4)
+
+c =
+
+kynn
+ryix
+txto
+avxm
+
+corim=block(cori,1,4)
+
+corim =
+
+kynnblhxzm
+ryixronuwf
+txtoheemls
+avxmhuxatf
+
+corim=text2int(corim)
+
+corim =
+
+    10    24    13    13     1    11     7    23    25    12
+    17    24     8    23    17    14    13    20    22     5
+    19    23    19    14     7     4     4    12    11    18
+     0    21    23    12     7    20    23     0    19     5
+
+for i=1:4
+    for j=1:4
+        mint(i,j)=text2int(m(i,j))
+    end
+end
+
+mint =
+
+    19     8    19    14
+     7    15     7    13
+     4    14     4    19
+    19     5    12     7
+
+
+
+for i=1:4
+    for j=1:4
+        cint(i,j)=text2int(c(i,j))
+    end
+end
+
+cint =
+
+    10    24    13    13
+    17    24     8    23
+    19    23    19    14
+     0    21    23    12
+
+dete=round(det(mint))
+
+dete =
+
+       12887
+
+detemodinv=powermod(dete,-1,26)
+
+detemodinv =
+
+    23
+
+m2=detemodinv*dete*inv(mint)
+
+m2 =
+
+   1.0e+04 *
+
+   -2.5231   -0.9545    0.9522    4.2343
+   -1.3041    4.9105   -2.3989    0.0000
+    4.1814    1.6629   -2.6588   -4.2343
+    0.6118   -3.7674    3.6869   -0.0000
+
+m2=mod(round(m2),26)
+
+m2 =
+
+    15    23     6    15
+    11    17     9     0
+     6    15    10    11
+     8     0     1     0
+
+Amod26=mod(cint*m2,26)
+
+Amod26 =
+
+    24     1     3     7
+    23     9     5     5
+    10    21     5     0
+    23     0    15    19
+
+deteAmod26=round(det(Amod26))
+
+deteAmod26 =
+
+       -7419
+
+detemodinvAmod26=powermod(deteAmod26,-1,26)
+
+detemodinvAmod26 =
+
+    23
+
+A2=detemodinvAmod26*deteAmod26*inv(Amod26)
+
+A2 =
+
+   1.0e+05 *
+
+    0.1000   -0.2537    0.1040    0.0299
+   -0.3243    0.4497   -0.2585    0.0011
+    1.1620   -1.3812    0.5366   -0.0646
+   -1.0385    1.3975   -0.5495   -0.0750
+
+A2=mod(round(A2),26)
+
+A2 =
+
+    21     7    22     0
+    18    11    18    11
+     2    23    21    11
+    25    24    17    16
+
+pt=mod(A2*corim,26)
+
+pt =
+
+    19     8    19    14     8     1    14     3    11     7
+     7    15     7    13    18    20    22    18     7     0
+     4    14     4    19    19    24     0     4     8     0
+    19     5    12     7    14    11    13    11     6     0
+
+plit=block(pt,-1,4)
+
+plit =
+
+  Columns 1 through 17
+
+    19     7     4    19     8    15    14     5    19     7     4    12    14    13    19     7     8
+
+  Columns 18 through 34
+
+    18    19    14     1    20    24    11    14    22     0    13     3    18     4    11    11     7
+
+  Columns 35 through 40
+
+     8     6     7     0     0     0
+
+int2text(plit)
+
+ans =
+
+thetipofthemonthistobuylowandsellhighaaa
+
+diary

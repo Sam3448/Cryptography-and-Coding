@@ -1,0 +1,40 @@
+Yes, the method will work, but we will have to change some parameters. First, as there are only 5 letters, we will have to change mod26 to mod5. Second, as the distribution of possibility is different now, we will have to calculate the boundaries of accumulation of possibility of each letter again (old values are 0.066 and 0.045). I accomplish calculating the parameters in the following way
+
+mod=5
+
+mod =
+
+     5
+
+freq=[0.05,0.20,0.25,0.35,0.15]
+
+freq =
+
+    0.0500    0.2000    0.2500    0.3500    0.1500
+
+len=size(freq)
+
+len =
+
+     1     5
+
+result=[]
+
+result =
+
+     []
+
+for i=0:len(1,2)-1
+    freqshift=transpose([freq(mod-i+1:mod) freq(1:mod-i)]);
+    result=[result,freq*freqshift];
+end
+result
+
+result =
+
+    0.2500    0.2075    0.1675    0.1675    0.2075
+
+diary
+
+
+As we can see, the upper boundary changes from 0.066 to 0.25, and the lower boundary changes from 0.045 to 0.1675. And I change mod26 to mod5. And now this method should work well.

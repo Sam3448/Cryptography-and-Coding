@@ -1,0 +1,281 @@
+q1
+
+q1 =
+
+sdgyevnlocydowzdsxqdytecdgbsdomkxiyerokbwoxyg
+
+result1=q1
+
+result1 =
+
+sdgyevnlocydowzdsxqdytecdgbsdomkxiyerokbwoxyg
+
+for i=1:25
+    result1=[result1; shift(q1,i)];
+end
+
+for i=0:25
+    mod(26-i,26)
+    result1(i+1,:)
+end
+
+ans =
+
+     0
+
+
+ans =
+
+sdgyevnlocydowzdsxqdytecdgbsdomkxiyerokbwoxyg
+
+
+ans =
+
+    25
+
+
+ans =
+
+tehzfwompdzepxaetyrezufdehctepnlyjzfsplcxpyzh
+
+
+ans =
+
+    24
+
+
+ans =
+
+ufiagxpnqeafqybfuzsfavgefidufqomzkagtqmdyqzai
+
+
+ans =
+
+    23
+
+
+ans =
+
+vgjbhyqorfbgrzcgvatgbwhfgjevgrpnalbhurnezrabj
+
+
+ans =
+
+    22
+
+
+ans =
+
+whkcizrpsgchsadhwbuhcxighkfwhsqobmcivsofasbck
+
+
+ans =
+
+    21
+
+
+ans =
+
+xildjasqthditbeixcvidyjhilgxitrpcndjwtpgbtcdl
+
+
+ans =
+
+    20
+
+
+ans =
+
+yjmekbtruiejucfjydwjezkijmhyjusqdoekxuqhcudem
+
+
+ans =
+
+    19
+
+
+ans =
+
+zknflcusvjfkvdgkzexkfaljknizkvtrepflyvridvefn
+
+
+ans =
+
+    18
+
+
+ans =
+
+alogmdvtwkglwehlafylgbmklojalwusfqgmzwsjewfgo
+
+
+ans =
+
+    17
+
+
+ans =
+
+bmphnewuxlhmxfimbgzmhcnlmpkbmxvtgrhnaxtkfxghp
+
+
+ans =
+
+    16
+
+
+ans =
+
+cnqiofxvyminygjnchanidomnqlcnywuhsiobyulgyhiq
+
+
+ans =
+
+    15
+
+
+ans =
+
+dorjpgywznjozhkodibojepnormdozxvitjpczvmhzijr
+
+
+ans =
+
+    14
+
+
+ans =
+
+epskqhzxaokpailpejcpkfqopsnepaywjukqdawniajks
+
+
+ans =
+
+    13
+
+
+ans =
+
+fqtlriaybplqbjmqfkdqlgrpqtofqbzxkvlrebxojbklt
+
+
+ans =
+
+    12
+
+
+ans =
+
+grumsjbzcqmrcknrglermhsqrupgrcaylwmsfcypkclmu
+
+
+ans =
+
+    11
+
+
+ans =
+
+hsvntkcadrnsdloshmfsnitrsvqhsdbzmxntgdzqldmnv
+
+
+ans =
+
+    10
+
+
+ans =
+
+itwouldbesotemptingtojustwritecanyouhearmenow
+
+
+ans =
+
+     9
+
+
+ans =
+
+juxpvmecftpufnqujohupkvtuxsjufdbozpvifbsnfopx
+
+
+ans =
+
+     8
+
+
+ans =
+
+kvyqwnfdguqvgorvkpivqlwuvytkvgecpaqwjgctogpqy
+
+
+ans =
+
+     7
+
+
+ans =
+
+lwzrxogehvrwhpswlqjwrmxvwzulwhfdqbrxkhduphqrz
+
+
+ans =
+
+     6
+
+
+ans =
+
+mxasyphfiwsxiqtxmrkxsnywxavmxigercsylievqirsa
+
+
+ans =
+
+     5
+
+
+ans =
+
+nybtzqigjxtyjruynslytozxybwnyjhfsdtzmjfwrjstb
+
+
+ans =
+
+     4
+
+
+ans =
+
+ozcuarjhkyuzksvzotmzupayzcxozkigteuankgxsktuc
+
+
+ans =
+
+     3
+
+
+ans =
+
+padvbskilzvaltwapunavqbzadypaljhufvbolhytluvd
+
+
+ans =
+
+     2
+
+
+ans =
+
+qbewctljmawbmuxbqvobwrcabezqbmkivgwcpmizumvwe
+
+
+ans =
+
+     1
+
+
+ans =
+
+rcfxdumknbxcnvycrwpcxsdbcfarcnljwhxdqnjavnwxf
+
+diary

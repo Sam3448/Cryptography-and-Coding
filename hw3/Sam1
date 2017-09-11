@@ -1,0 +1,25 @@
+invmodn(2501,1002)
+
+ans =
+
+   125
+
+Euclid(105,5)
+
+ans =
+
+     5     0     1
+
+Euclid(543,47)
+
+ans =
+
+     1    -9   104
+
+Euclid(302,7)
+
+ans =
+
+     1     1   -43
+
+diary
